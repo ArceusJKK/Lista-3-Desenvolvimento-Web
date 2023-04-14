@@ -1,0 +1,31 @@
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+
+
+</body>
+
+<script>
+var dataBase = []
+
+var nomeDoFilme = window.prompt("Digite qual o seu filme favorito ")
+var anoDeLançamento = window.prompt("Digite o ano de lançamento ")
+var nomeDoProtagonista = window.prompt("Digite o nome do protagonista")
+
+var filmes = {
+    nome: nomeDoFilme,
+    anoDoLançamento: anoDeLançamento,
+    nomeDoProta: nomeDoProtagonista
+}
+dataBase.push (filmes)
+
+document.write ("<br>Nome do filme: ", dataBase[0].nome)
+document.write ("<br>Lançamento do filme: ", dataBase[0].anoDoLançamento)
+document.write ("<br>Protagonista: ", dataBase[0].nomeDoProta)
+</script>
+</html>
